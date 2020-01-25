@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Cake.SqlServer</id>
+    <version>1.13.0</version>
+    <title>Cake.SqlServer</title>
+    <authors>Max Vasilyev</authors>
+    <owners>trailmax, cake-contrib</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/AMVSoftware/Cake.SqlServer/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/AMVSoftware/Cake.SqlServer</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/cake-contrib/graphics/a5cf0f881c390650144b2243ae551d5b9f836196/png/cake-contrib-medium.png</iconUrl>
+    <description>Cake Build addon for executing some operations in MS Sql Server.</description>
+    <summary>SqlServer tools addon for Cake Build.</summary>
+    <releaseNotes>Initial ReleaseUpdate to Cake v0.30.0
+Fix for incorrect path separators when restoring backup on Linux</releaseNotes>
+    <copyright>Copyright (c) AMV Software 2015</copyright>
+    <tags>Cake Script Build SQLServer</tags>
+  </metadata>
+</package>

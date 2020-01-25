@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Infrastrucuture\\EmergingBooking.Infrastructure.KafkaProducer\\EmergingBooking.Infrastructure.KafkaProducer.csproj": {}
+  },
+  "projects": {
+    "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Infrastrucuture\\EmergingBooking.Infrastructure.KafkaProducer\\EmergingBooking.Infrastructure.KafkaProducer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Infrastrucuture\\EmergingBooking.Infrastructure.KafkaProducer\\EmergingBooking.Infrastructure.KafkaProducer.csproj",
+        "projectName": "EmergingBooking.Infrastructure.KafkaProducer",
+        "projectPath": "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Infrastrucuture\\EmergingBooking.Infrastructure.KafkaProducer\\EmergingBooking.Infrastructure.KafkaProducer.csproj",
+        "packagesPath": "C:\\Users\\RODRIGODEOLIVEIRA\\.nuget\\packages\\",
+        "outputPath": "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Infrastrucuture\\EmergingBooking.Infrastructure.KafkaProducer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\RODRIGODEOLIVEIRA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[1.0.0-RC4, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[1.60.6, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+<div class="modal fade" id="updateHotelAddress" tabindex="-1" role="dialog" aria-labelledby="updateHotelAddressModalLabel"
+aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="updateHotelAddressModalLabel">Rooms</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <h2>{{hotel.name}}</h2>
+      <app-hotel-stars [starsOfCategory]='hotel.starsOfCategory'></app-hotel-stars>
+      <form>
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <label for="addressStreet">Street</label>
+                    <input type="text" class="form-control" id="addressStreet" name="addressStreet" [(ngModel)]="hotel.addressStreet" placeholder="Street">
+                </div>
+            </div>
+    
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <label for="addressDistrict">District</label>
+                    <input type="text" class="form-control" id="addressDistrict" name="addressDistrict" [(ngModel)]="hotel.addressDistrict" placeholder="District">
+                </div>
+            </div>
+    
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="addressCity">City</label>
+                    <input type="text" class="form-control" id="addressCity" name="addressCity" [(ngModel)]="hotel.addressCity" placeholder="City">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="addressCountry">Country</label>
+                    <input type="text" class="form-control" id="addressCountry" name="addressCountry" [(ngModel)]="hotel.addressCountry" placeholder="Country">
+                </div>
+            </div> 
+            
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="zipcode">Zip code</label>
+                    <input type="text" class="form-control" id="zipcode" name="zipcode" [(ngModel)]="hotel.zipCode" placeholder="Zip code">
+                </div>
+            </div>        
+        </form>   
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-primary" data-dismiss="modal" (click)="save()">Save</button>
+    </div>
+  </div>
+</div>

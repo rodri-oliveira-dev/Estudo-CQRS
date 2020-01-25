@@ -1,0 +1,65 @@
+<app-directa-form [formWitdth]='1020' [formHeight]='600' [adHost]='adHost' title='Hotels' [ref]='ref'>
+    <form>
+        <div class="form-row">
+            <div class="form-group col-md-10">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" placeholder="Nome do hotel" [(ngModel)]="payload.name"
+                    name="name" id="name">
+            </div>
+            <div class="form-group col-md-2">
+                <label for="starsOfCategory">Stars of Category</label>
+                <input type="number" class="form-control" [(ngModel)]="payload.starsOfCategory"
+                  id="starsOfCategory"  name="starsOfCategory" min="1" max="5" >
+            </div>          
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-12">
+                <label for="street">Street</label>
+                <input type="text" class="form-control" id="street" name="street" [(ngModel)]="payload.street" placeholder="Street">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-12">
+                <label for="district">District</label>
+                <input type="text" class="form-control" id="district" name="district" [(ngModel)]="payload.district" placeholder="District">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="city">City</label>
+                <input type="text" class="form-control" id="city" name="city" [(ngModel)]="payload.city" placeholder="City">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="country">Country</label>
+                <input type="text" class="form-control" id="country" name="country" [(ngModel)]="payload.country" placeholder="Country">
+            </div>
+        </div> 
+        
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="zipcode">Zip code</label>
+                <input type="text" class="form-control" id="zipcode" name="zipcode" [(ngModel)]="payload.zipcode" placeholder="Zip code">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="email">Email</label>
+                <input type="text" class="form-control" id="email" name="email" [(ngModel)]="payload.email" placeholder="email">
+            </div>
+        </div> 
+        
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="phone">Phone</label>
+                <input type="text" class="form-control" id="phone" name="phone" [(ngModel)]="payload.phone" placeholder="phone">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="mobile">Mobile</label>
+                <input type="text" class="form-control" id="mobile" name="mobile" [(ngModel)]="payload.mobile" placeholder="mobile">
+            </div>
+        </div>        
+
+        <button type="submit" class="btn btn-primary" (click)='save()'>Save</button>
+    </form>    
+</app-directa-form>

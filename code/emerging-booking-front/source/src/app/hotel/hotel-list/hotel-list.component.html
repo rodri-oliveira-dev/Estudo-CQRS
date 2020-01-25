@@ -1,0 +1,77 @@
+<app-directa-form [formWitdth]='1020' [formHeight]='600' [adHost]='adHost' title='Hotels' [ref]='ref'>
+    <form>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <i class="fas fa-hotel"></i>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" (click)="newHotel()">New hotel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Booking</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <br>
+      <table class="table">
+        <thead>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Contact</th>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of items">
+            <td>
+              <h3>
+                {{item.name}}</h3>
+              <app-hotel-stars [starsOfCategory]='item.starsOfCategory'></app-hotel-stars>
+              <button class="btn btn-link" (click)="getRooms(item)" data-toggle="modal" data-target="#listRoomsModal">
+                <i class="fas fa-bed"></i>
+                See Rooms
+              </button>
+              <button class="btn btn-link" (click)="setCurrentHotel(item)" data-toggle="modal"
+                data-target="#addRoomModal">
+                <i class="fas fa-door-open"></i>
+                Add Room
+              </button>
+            </td>
+            <td>
+              <address>
+                {{item.addressStreet}} <br>
+                {{item.addressDistrict}} <br>
+                {{item.addressCity}} / {{item.addressCountry}}
+                <button class="btn btn-link" (click)="setCurrentHotel(item)" data-toggle="modal"
+                  data-target="#updateHotelAddress">
+                  Edit
+                </button>
+              </address>
+            </td>
+            <td>
+              <i class="fas fa-envelope"></i>
+              {{item.contactEmail}} <br>
+              <i class="fas fa-mobile"></i>
+              {{item.contactMobile}} <br>
+              <i class="fas fa-phone-square"></i>
+              {{item.contactPhone}}
+              <button class="btn btn-link" (click)="setCurrentHotel(item)" data-toggle="modal"
+                data-target="#updateHotelContact">
+                Edit
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+
+    <app-room-list [hotel]='currentHotel' [rooms]='currentSelectedRooms'></app-room-list>
+    <app-room-create [currentHotel]='currentHotel'></app-room-create>
+    <app-hotel-address-edit [hotel]='currentHotelEdit'></app-hotel-address-edit>
+    <app-hotel-contact-edit [hotel]='currentHotelEdit'></app-hotel-contact-edit>
+</app-directa-form>

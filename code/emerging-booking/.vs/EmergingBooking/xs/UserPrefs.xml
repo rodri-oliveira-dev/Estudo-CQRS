@@ -1,0 +1,55 @@
+﻿<Properties StartupConfiguration="{200C2DD7-2AEA-45BA-9EB4-AC71D97E9E21}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Background Service/EmergingBooking.Message.Consumer/appsettings.Development.json">
+    <Files>
+      <File FileName="Background Service/EmergingBooking.Message.Consumer/BackgroundService/RoomConsumer.cs" Line="1" Column="1" />
+      <File FileName="Business/EmergingBooking.Reservation.Application/Handlers/ReservationHandler.cs" Line="65" Column="56" />
+      <File FileName="Background Service/EmergingBooking.Message.Consumer/BackgroundService/HostedService.cs" Line="10" Column="57" />
+      <File FileName="Background Service/EmergingBooking.Message.Consumer/BackgroundService/HotelAddressConsumer.cs" Line="12" Column="18" />
+      <File FileName="Background Service/EmergingBooking.Message.Consumer/BackgroundService/HotelConsumer.cs" Line="1" Column="1" />
+      <File FileName="Background Service/EmergingBooking.Message.Consumer/BackgroundService/HotelContactsConsumer.cs" Line="14" Column="44" />
+      <File FileName="../../docker-compose.yaml" Line="1" Column="1" />
+      <File FileName="Queries/EmergingBooking.Queries.Application/Hotel/ReadModel/HotelListItem.cs" Line="1" Column="1" />
+      <File FileName="Queries/EmergingBooking.Queries.Application/Hotel/ReadModel/RoomListItem.cs" Line="1" Column="1" />
+      <File FileName="Queries/EmergingBooking.Queries.Application/Hotel/Query/RoomQuery.cs" Line="1" Column="1" />
+      <File FileName="Queries/EmergingBooking.Queries.Application/Hotel/Query/HotelQuery.cs" Line="1" Column="1" />
+      <File FileName="Background Service/EmergingBooking.Message.Consumer/appsettings.json" Line="1" Column="1" />
+      <File FileName="Background Service/EmergingBooking.Message.Consumer/appsettings.Development.json" Line="3" Column="74" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EmergingBooking" expanded="True">
+            <Node name="Api" expanded="True" />
+            <Node name="Background Service" expanded="True">
+              <Node name="EmergingBooking.Message.Consumer" expanded="True">
+                <Node name="appsettings.Development.json" selected="True" />
+              </Node>
+            </Node>
+            <Node name="Business" expanded="True" />
+            <Node name="Infrastructure" expanded="True" />
+            <Node name="Queries" expanded="True">
+              <Node name="EmergingBooking.Queries.Application" expanded="True">
+                <Node name="Hotel" expanded="True">
+                  <Node name="Query" expanded="True" />
+                  <Node name="ReadModel" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="Solution Files" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/yanjustino/Projects/emergingcode/ec03-conteudo/code/emerging-booking/Infrastrucuture/EmergingBooking.Infrastructure.CQRS/DependencyResolver.cs" relfile="Infrastrucuture/EmergingBooking.Infrastructure.CQRS/DependencyResolver.cs" line="25" column="1" />
+      <Breakpoint file="/Users/yanjustino/Projects/emergingcode/ec03-conteudo/code/emerging-booking/Business/EmergingBooking.Reservation.Application/Repository/ReservationPersistence.cs" relfile="Business/EmergingBooking.Reservation.Application/Repository/ReservationPersistence.cs" line="51" column="1" />
+      <Breakpoint file="/Users/yanjustino/Projects/emergingcode/ec03-conteudo/code/emerging-booking/Background Service/EmergingBooking.Message.Consumer/BackgroundService/HotelContactsConsumer.cs" relfile="Background Service/EmergingBooking.Message.Consumer/BackgroundService/HotelContactsConsumer.cs" line="57" column="103" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Api.EmergingBookingApi PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

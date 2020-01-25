@@ -1,0 +1,8 @@
+/Users/yanjustino/Projects/emergingcode/ec03-conteudo/code/emerging-booking/Infrastrucuture/EmergingBooking.Migration/bin/Debug/netstandard2.0/EmergingBooking.Migration.deps.json
+/Users/yanjustino/Projects/emergingcode/ec03-conteudo/code/emerging-booking/Infrastrucuture/EmergingBooking.Migration/bin/Debug/netstandard2.0/EmergingBooking.Migration.dll
+/Users/yanjustino/Projects/emergingcode/ec03-conteudo/code/emerging-booking/Infrastrucuture/EmergingBooking.Migration/bin/Debug/netstandard2.0/EmergingBooking.Migration.pdb
+/Users/yanjustino/Projects/emergingcode/ec03-conteudo/code/emerging-booking/Infrastrucuture/EmergingBooking.Migration/obj/Debug/netstandard2.0/EmergingBooking.Migration.csproj.CoreCompileInputs.cache
+/Users/yanjustino/Projects/emergingcode/ec03-conteudo/code/emerging-booking/Infrastrucuture/EmergingBooking.Migration/obj/Debug/netstandard2.0/EmergingBooking.Migration.AssemblyInfoInputs.cache
+/Users/yanjustino/Projects/emergingcode/ec03-conteudo/code/emerging-booking/Infrastrucuture/EmergingBooking.Migration/obj/Debug/netstandard2.0/EmergingBooking.Migration.AssemblyInfo.cs
+/Users/yanjustino/Projects/emergingcode/ec03-conteudo/code/emerging-booking/Infrastrucuture/EmergingBooking.Migration/obj/Debug/netstandard2.0/EmergingBooking.Migration.dll
+/Users/yanjustino/Projects/emergingcode/ec03-conteudo/code/emerging-booking/Infrastrucuture/EmergingBooking.Migration/obj/Debug/netstandard2.0/EmergingBooking.Migration.pdb

@@ -1,0 +1,88 @@
+@import "src/assets/css/colors.scss";
+
+$border: #dddddd;
+
+:host(.directa-form) {
+  display: grid;
+}
+
+:host(.maximized) {
+  [directa-form-base] {
+    margin-left: 0px;
+  }
+  display: grid;
+  height: 100%;
+  transform: none;
+}
+
+:host(.maximized) [directa-form-base] {
+  transform: translate3d(0px, 0px, 0px) !important;
+}
+
+:host [directa-form-base] {
+  display: grid;
+  grid-template-rows: 35px auto;
+  min-width: 358px;
+  min-height: 300px;
+
+  .directa-form-base-header {
+    display: grid;
+    grid-template-columns: auto 33px 33px;
+    align-items: center;
+    background-color: $app-directa-form-header-cor;
+    color: $app-directa-form-header-font-cor;
+
+    .directa-form-title {
+      width: 100%;
+      cursor: move;
+      margin-left: 10px;
+      font-size: 10pt;
+    }
+
+    :first-child {
+      justify-self: center;
+    }
+
+    :last-child {
+      justify-self: center;
+    }
+  }
+}
+
+:host .directa-form-base-content {
+  display: grid;
+  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 15px;
+  zoom: 0.8;
+}
+
+.form-overlay {
+  z-index: 9999 !important;
+}
+
+.form-box {
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  position: absolute;
+  box-sizing: border-box;
+  transition: box-shadow 200ms cubic-bezier(0, 0, 0.2, 1);
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.form-box:active {
+  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
+.icone {
+  text-align: right;
+  font-weight: 100;
+
+  :hover {
+    color: $app-button-hover-cor;
+    cursor: pointer;
+  }
+}

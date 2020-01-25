@@ -1,0 +1,17 @@
+<!-- Botão Logout -->
+<div *ngIf="stayLogged(); else unlogged">
+    <a #logged id="button-logout"  class="ml-auto">
+        Logout
+        <i (click)="logout()" ng-href="#" class="fas fa-sign-out-alt"></i>
+    </a>
+</div>
+<!-- Fim Botão Logout -->
+
+<!-- Botão Login -->
+<div *ngIf="!stayLogged(); else logged">
+    <a #logged id="button-login"  class="ml-auto">
+        Login
+        <i (click)="redirectAuthorizationServer()" ng-href="#" class="fas fa-sign-in-alt"></i>
+    </a>
+</div>
+<!-- Fim Botão Login-->

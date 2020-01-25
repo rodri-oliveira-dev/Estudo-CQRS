@@ -1,0 +1,11 @@
+<div class="accordion" id="accordionExample">
+    <div class="card" *ngFor="let group of menu.groups; let i = index">
+        <div class="card-header" id="header{{i}}">        
+            <button class="btn btn-link" type="button" (click)="selectGroup(group)">
+                <i [ngClass]="group.icon"></i>
+                &nbsp;
+                <span class="name-item">{{group.label}}</span>
+            </button>
+        </div>
+    </div>
+</div>

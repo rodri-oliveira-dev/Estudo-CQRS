@@ -1,0 +1,65 @@
+<nav class="navbar navbar-expand-sm navbar-light justify-content-between" cabecalho>
+
+  <!--
+    - Verifica se o usuario está logado, caso esteja logado, retorna "Usuário autenticado: Nome do usuário".
+    - Caso o usuário não esteja logado, retorna "Usuário não autenticado". 
+  -->
+  <a class="navbar-brand" *ngIf="stayLogged(); else userNotAutenticado">
+    <h6 #userAutenticado>
+      Usuário autenticado: {{ getUserName() }}
+    </h6>
+  </a>
+  <a class="navbar-brand" *ngIf="!stayLogged(); else userAutenticado">
+    <h6 #userNotAutenticado>
+      Usuário não Autenticado
+    </h6>
+  </a>
+
+  <app-login></app-login>
+
+</nav>
+
+<!-- 
+  SubMenu
+-->
+<nav class="navbar navbar-light navbar-expand-sm" id="submenu" [ngClass]="{'submenu-show': currentGroup.label }"
+  sub-menu>
+  <a class="nav-item" ng-href="#"><i [ngClass]="currentGroup.icon">&nbsp;</i>{{currentGroup.label}}</a>
+  <ul class="nav" id="list-submenu">
+    <li class="nav-item mr-auto" *ngFor="let itemMenu of currentGroup.items">
+      <a ng-href="#" id="item-submenu" class="nav-link" (click)="setItemCurrentGroup(itemMenu)">
+        <i class="fas fa-angle-right"></i>
+        {{itemMenu.label}}
+      </a>
+    </li>
+  </ul>
+  <div class="dropdown">
+    <ul id="more_submenu" class="dropdown-menu dropdown-menu-right"></ul>
+  </div>
+</nav>
+<!--
+  Fim do SubMenu
+-->
+
+<aside navegacao [ngClass]="{small: showAndHideMenu}">
+  <app-directa-submit-close-modal area-modal message_title='Sua sessão expirou!'
+    message='Deseja permanecer no sistema ?' (submitForm)="verifierRefreshToken()" (closeForm)="logout()">
+  </app-directa-submit-close-modal>
+
+  <app-directa-menu-logo [ngClass]="{small: showAndHideMenu}"></app-directa-menu-logo>
+
+
+  <app-directa-menu [ngClass]="{small: showAndHideMenu}" [menu]="menu" (itemClicked)="creatForm($event)"
+    (groupSelected)="setCurrentGroup($event)">
+  </app-directa-menu>
+  <div *ngIf="!showAndHideMenu; else thenShow">
+    <i id="angle-left" #thenHide (click)="hideAndShow(true)" class="fas fa-angle-double-left"></i>
+  </div>
+  <div *ngIf="showAndHideMenu; else thenHide">
+    <i id="angle-right" #thenShow (click)="hideAndShow(false)" class="fas fa-angle-double-right"></i>
+  </div>
+</aside>
+
+<section area-conteudo id="host" class="form-boundary">
+  <ng-template ad-host></ng-template>
+</section>

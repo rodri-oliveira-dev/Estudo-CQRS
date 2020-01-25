@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Infrastrucuture\\EmergingBooking.Infrastructure.Storage.SqlServer\\EmergingBooking.Infrastructure.Storage.SqlServer.csproj": {}
+  },
+  "projects": {
+    "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Infrastrucuture\\EmergingBooking.Infrastructure.Storage.SqlServer\\EmergingBooking.Infrastructure.Storage.SqlServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Infrastrucuture\\EmergingBooking.Infrastructure.Storage.SqlServer\\EmergingBooking.Infrastructure.Storage.SqlServer.csproj",
+        "projectName": "EmergingBooking.Infrastructure.Storage.SqlServer",
+        "projectPath": "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Infrastrucuture\\EmergingBooking.Infrastructure.Storage.SqlServer\\EmergingBooking.Infrastructure.Storage.SqlServer.csproj",
+        "packagesPath": "C:\\Users\\RODRIGODEOLIVEIRA\\.nuget\\packages\\",
+        "outputPath": "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Infrastrucuture\\EmergingBooking.Infrastructure.Storage.SqlServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\RODRIGODEOLIVEIRA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+@import "src/assets/css/colors.scss";
+
+:host {
+  overflow: hidden;
+  overflow-y: hidden;
+  zoom: 0.8;
+  align-self: initial;
+
+  .accordion {
+    margin-top: 30px;
+  }
+
+  .accordion .card {
+    background-color: transparent;
+    color: $app-directa-menu-font-cor;
+  }
+
+  @media only screen and (max-width: 610px) {
+    .name-item {
+      display: none;
+    }
+
+    button {
+      text-align: center !important;
+    }
+  }
+}
+
+:host(.small) {
+  align-self: initial;
+  .accordion {
+    margin-top: 0px;
+  }
+  .name-item {
+    display: none;
+  }
+
+  button {
+    text-align: center;
+  }
+}
+
+:host button {
+  color: $app-directa-menu-font-cor;
+  text-transform: uppercase;
+  font-weight: 300;
+  width: 100%;
+  text-align: left;
+  text-decoration: none;
+}
+:host button:hover {
+  color: $app-button-hover-cor;
+}
+
+:host .card-header {
+  background-color: $app-directa-menu-grupo-cor;
+  display: grid-inline;
+  align-items: center;
+  align-content: center;
+  height: 40px;
+  padding: 0px !important;
+}
+
+:host a {
+  color: $app-directa-menu-font-cor;
+  text-decoration: none;
+}

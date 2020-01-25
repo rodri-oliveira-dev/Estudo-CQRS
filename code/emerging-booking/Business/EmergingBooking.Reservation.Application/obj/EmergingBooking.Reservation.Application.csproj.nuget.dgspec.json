@@ -1,0 +1,314 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Business\\EmergingBooking.Reservation.Application\\EmergingBooking.Reservation.Application.csproj": {}
+  },
+  "projects": {
+    "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Business\\EmergingBooking.Reservation.Application\\EmergingBooking.Reservation.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Business\\EmergingBooking.Reservation.Application\\EmergingBooking.Reservation.Application.csproj",
+        "projectName": "EmergingBooking.Reservation.Application",
+        "projectPath": "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Business\\EmergingBooking.Reservation.Application\\EmergingBooking.Reservation.Application.csproj",
+        "packagesPath": "C:\\Users\\RODRIGODEOLIVEIRA\\.nuget\\packages\\",
+        "outputPath": "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Business\\EmergingBooking.Reservation.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\RODRIGODEOLIVEIRA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Infrastrucuture\\EmergingBooking.Infrastructure.CQRS\\EmergingBooking.Infrastructure.CQRS.csproj": {
+                "projectPath": "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Infrastrucuture\\EmergingBooking.Infrastructure.CQRS\\EmergingBooking.Infrastructure.CQRS.csproj"
+              },
+              "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Infrastrucuture\\EmergingBooking.Infrastructure.KafkaProducer\\EmergingBooking.Infrastructure.KafkaProducer.csproj": {
+                "projectPath": "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Infrastrucuture\\EmergingBooking.Infrastructure.KafkaProducer\\EmergingBooking.Infrastructure.KafkaProducer.csproj"
+              },
+              "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Infrastrucuture\\EmergingBooking.Infrastructure.Storage.RavenDB\\EmergingBooking.Infrastructure.Storage.RavenDB.csproj": {
+                "projectPath": "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Infrastrucuture\\EmergingBooking.Infrastructure.Storage.RavenDB\\EmergingBooking.Infrastructure.Storage.RavenDB.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[1.0.0-RC4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "RavenDB.Client": {
+              "target": "Package",
+              "version": "[4.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Infrastrucuture\\EmergingBooking.Infrastructure.CQRS\\EmergingBooking.Infrastructure.CQRS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Infrastrucuture\\EmergingBooking.Infrastructure.CQRS\\EmergingBooking.Infrastructure.CQRS.csproj",
+        "projectName": "EmergingBooking.Infrastructure.Cqrs",
+        "projectPath": "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Infrastrucuture\\EmergingBooking.Infrastructure.CQRS\\EmergingBooking.Infrastructure.CQRS.csproj",
+        "packagesPath": "C:\\Users\\RODRIGODEOLIVEIRA\\.nuget\\packages\\",
+        "outputPath": "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Infrastrucuture\\EmergingBooking.Infrastructure.CQRS\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\RODRIGODEOLIVEIRA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Infrastrucuture\\EmergingBooking.Infrastructure.KafkaProducer\\EmergingBooking.Infrastructure.KafkaProducer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Infrastrucuture\\EmergingBooking.Infrastructure.KafkaProducer\\EmergingBooking.Infrastructure.KafkaProducer.csproj",
+        "projectName": "EmergingBooking.Infrastructure.KafkaProducer",
+        "projectPath": "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Infrastrucuture\\EmergingBooking.Infrastructure.KafkaProducer\\EmergingBooking.Infrastructure.KafkaProducer.csproj",
+        "packagesPath": "C:\\Users\\RODRIGODEOLIVEIRA\\.nuget\\packages\\",
+        "outputPath": "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Infrastrucuture\\EmergingBooking.Infrastructure.KafkaProducer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\RODRIGODEOLIVEIRA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[1.0.0-RC4, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[1.60.6, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Infrastrucuture\\EmergingBooking.Infrastructure.Storage.RavenDB\\EmergingBooking.Infrastructure.Storage.RavenDB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Infrastrucuture\\EmergingBooking.Infrastructure.Storage.RavenDB\\EmergingBooking.Infrastructure.Storage.RavenDB.csproj",
+        "projectName": "EmergingBooking.Infrastructure.Storage.RavenDB",
+        "projectPath": "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Infrastrucuture\\EmergingBooking.Infrastructure.Storage.RavenDB\\EmergingBooking.Infrastructure.Storage.RavenDB.csproj",
+        "packagesPath": "C:\\Users\\RODRIGODEOLIVEIRA\\.nuget\\packages\\",
+        "outputPath": "C:\\estudos\\angular\\emergingcode-ec03-t02-master\\code\\emerging-booking\\Infrastrucuture\\EmergingBooking.Infrastructure.Storage.RavenDB\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\RODRIGODEOLIVEIRA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "RavenDB.Client": {
+              "target": "Package",
+              "version": "[4.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

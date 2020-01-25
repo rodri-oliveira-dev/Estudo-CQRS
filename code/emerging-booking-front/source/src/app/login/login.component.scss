@@ -1,0 +1,32 @@
+@import "src/assets/css/colors.scss";
+
+:host {
+  .container {
+    margin: auto;
+    width: 25%;
+    border: 1px solid silver;
+  }
+}
+/* Botão entra */
+#button-login {
+  float: right;
+  margin: auto;
+  font-weight: 100;
+  font-size: 11pt;
+
+  :hover {
+    color: $app-button-hover-cor;
+  }
+}
+
+/* Botão sair */
+#button-logout {
+  float: right;
+  margin: auto;
+  font-weight: 100;
+  font-size: 11pt;
+
+  :hover {
+    color: $app-button-hover-cor;
+  }
+}

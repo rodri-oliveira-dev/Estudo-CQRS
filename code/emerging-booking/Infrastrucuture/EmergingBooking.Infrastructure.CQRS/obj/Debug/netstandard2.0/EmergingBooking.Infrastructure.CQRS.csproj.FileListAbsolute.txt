@@ -1,0 +1,17 @@
+/Users/yanjustino/Projects/emergingcode/ec03-conteudo/code/emerging-booking/Infrastrucuture/EmergingBooking.Infrastructure.CQRS/bin/Debug/netstandard2.0/EmergingBooking.Infrastructure.Cqrs.deps.json
+/Users/yanjustino/Projects/emergingcode/ec03-conteudo/code/emerging-booking/Infrastrucuture/EmergingBooking.Infrastructure.CQRS/bin/Debug/netstandard2.0/EmergingBooking.Infrastructure.Cqrs.dll
+/Users/yanjustino/Projects/emergingcode/ec03-conteudo/code/emerging-booking/Infrastrucuture/EmergingBooking.Infrastructure.CQRS/bin/Debug/netstandard2.0/EmergingBooking.Infrastructure.Cqrs.pdb
+/Users/yanjustino/Projects/emergingcode/ec03-conteudo/code/emerging-booking/Infrastrucuture/EmergingBooking.Infrastructure.CQRS/obj/Debug/netstandard2.0/EmergingBooking.Infrastructure.CQRS.csprojAssemblyReference.cache
+/Users/yanjustino/Projects/emergingcode/ec03-conteudo/code/emerging-booking/Infrastrucuture/EmergingBooking.Infrastructure.CQRS/obj/Debug/netstandard2.0/EmergingBooking.Infrastructure.CQRS.csproj.CoreCompileInputs.cache
+/Users/yanjustino/Projects/emergingcode/ec03-conteudo/code/emerging-booking/Infrastrucuture/EmergingBooking.Infrastructure.CQRS/obj/Debug/netstandard2.0/EmergingBooking.Infrastructure.CQRS.AssemblyInfoInputs.cache
+/Users/yanjustino/Projects/emergingcode/ec03-conteudo/code/emerging-booking/Infrastrucuture/EmergingBooking.Infrastructure.CQRS/obj/Debug/netstandard2.0/EmergingBooking.Infrastructure.CQRS.AssemblyInfo.cs
+/Users/yanjustino/Projects/emergingcode/ec03-conteudo/code/emerging-booking/Infrastrucuture/EmergingBooking.Infrastructure.CQRS/obj/Debug/netstandard2.0/EmergingBooking.Infrastructure.Cqrs.dll
+/Users/yanjustino/Projects/emergingcode/ec03-conteudo/code/emerging-booking/Infrastrucuture/EmergingBooking.Infrastructure.CQRS/obj/Debug/netstandard2.0/EmergingBooking.Infrastructure.Cqrs.pdb
+C:\estudos\angular\emergingcode-ec03-t02-master\code\emerging-booking\Infrastrucuture\EmergingBooking.Infrastructure.CQRS\bin\Debug\netstandard2.0\EmergingBooking.Infrastructure.Cqrs.deps.json
+C:\estudos\angular\emergingcode-ec03-t02-master\code\emerging-booking\Infrastrucuture\EmergingBooking.Infrastructure.CQRS\bin\Debug\netstandard2.0\EmergingBooking.Infrastructure.Cqrs.dll
+C:\estudos\angular\emergingcode-ec03-t02-master\code\emerging-booking\Infrastrucuture\EmergingBooking.Infrastructure.CQRS\bin\Debug\netstandard2.0\EmergingBooking.Infrastructure.Cqrs.pdb
+C:\estudos\angular\emergingcode-ec03-t02-master\code\emerging-booking\Infrastrucuture\EmergingBooking.Infrastructure.CQRS\obj\Debug\netstandard2.0\EmergingBooking.Infrastructure.CQRS.csprojAssemblyReference.cache
+C:\estudos\angular\emergingcode-ec03-t02-master\code\emerging-booking\Infrastrucuture\EmergingBooking.Infrastructure.CQRS\obj\Debug\netstandard2.0\EmergingBooking.Infrastructure.CQRS.AssemblyInfoInputs.cache
+C:\estudos\angular\emergingcode-ec03-t02-master\code\emerging-booking\Infrastrucuture\EmergingBooking.Infrastructure.CQRS\obj\Debug\netstandard2.0\EmergingBooking.Infrastructure.CQRS.AssemblyInfo.cs
+C:\estudos\angular\emergingcode-ec03-t02-master\code\emerging-booking\Infrastrucuture\EmergingBooking.Infrastructure.CQRS\obj\Debug\netstandard2.0\EmergingBooking.Infrastructure.Cqrs.dll
+C:\estudos\angular\emergingcode-ec03-t02-master\code\emerging-booking\Infrastrucuture\EmergingBooking.Infrastructure.CQRS\obj\Debug\netstandard2.0\EmergingBooking.Infrastructure.Cqrs.pdb

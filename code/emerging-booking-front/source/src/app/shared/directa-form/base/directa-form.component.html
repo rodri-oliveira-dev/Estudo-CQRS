@@ -1,0 +1,28 @@
+<div directa-form-base [ngStyle]='applyStyle()' class="form-box" cdkDragBoundary=".form-boundary" cdkDrag>
+    <div class="directa-form-base-header">
+        <div class="directa-form-title" cdkDragHandle>
+            {{title}}
+        </div>
+
+        <div *ngIf="fullSize" class="icone">
+            <a (click)="minimize()" ng-href="#">
+                <i class="fas fa-window-minimize"></i>
+            </a>
+        </div>
+
+        <div *ngIf="!fullSize" class="icone">
+            <a (click)="maximize()" ng-href="#">
+                <i class="far fa-window-maximize"></i>
+            </a>
+        </div>
+
+        <div class="icone">
+            <a (click)="close()" ng-href="#">
+                <i class="fas fa-times"></i>
+            </a>
+        </div>
+    </div>
+    <div class="directa-form-base-content" (dblclick)="overlay()">
+        <ng-content></ng-content>
+    </div>
+</div>

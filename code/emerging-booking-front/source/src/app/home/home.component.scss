@@ -1,0 +1,109 @@
+@import "src/assets/css/colors.scss";
+
+:host {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 35px auto;
+  height: 100%;
+
+  grid-template-areas:
+    "sidebar header header header header"
+    "sidebar main   main   main   main"
+    "sidebar main   main   main   main";
+}
+
+:host [sub-menu] {
+  grid-area: submenu;
+  font-weight: 100;
+  font-size: 12px;
+  display: none;
+  flex-wrap: nowrap !important;
+
+  #item-submenu:hover {
+    color: $app-button-hover-cor;
+  }
+
+  .dropdown-menu {
+    line-height: 0.5px;
+    margin: 14px 0 0 0;
+    font-weight: 100;
+    font-size: 12px;
+    padding: 0px;
+  }
+}
+
+:host(.small-navegation) {
+  grid-template-columns: 75px 1fr 1fr 1fr 1fr;
+}
+
+:host(.submenu-show) {
+  [sub-menu] {
+    display: flex !important;
+  }
+
+  grid-template-rows: 35px 25px auto;
+  grid-template-areas:
+    "sidebar header    header    header    header"
+    "sidebar submenu   submenu   submenu   submenu"
+    "sidebar main      main      main      main";
+}
+
+:host [cabecalho] {
+  grid-area: header;
+  background-color: $app-cabecalho-cor;
+  box-shadow: 0px 0px 40px 0px rgba(82, 63, 105, 0.1);
+  z-index: 1;
+  flex-wrap: nowrap !important;
+
+  h6 {
+    font-weight: 100;
+    font-size: 11pt;
+    padding-top: 5px;
+  }
+}
+
+:host [navegacao].small {
+  grid-auto-rows: 1px 125px auto 40px;
+}
+
+:host [navegacao] {
+  display: grid;
+  grid-auto-rows: 1px 150px auto 40px;
+  grid-area: sidebar;
+  background-color: $app-navegacao-cor;
+
+  #angle-left {
+    color: white;
+    float: right;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+  #angle-left:hover {
+    color: $app-button-hover-cor;
+  }
+  #angle-right {
+    color: white;
+    float: right;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+  #angle-right:hover {
+    color: $app-button-hover-cor;
+  }
+}
+
+:host [area-conteudo] {
+  grid-area: main;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: $app-area-conteudo-cor;
+  display: flex;
+
+  .form-boundary {
+    width: 100%;
+  }
+}
